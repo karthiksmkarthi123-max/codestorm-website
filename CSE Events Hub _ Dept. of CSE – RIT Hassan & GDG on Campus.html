@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)https://cse-events-hub.ai.studio/ -->
+<html lang="en" data-theme="light"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSE Events Hub | Dept. of CSE – RIT Hassan &amp; GDG on Campus</title>
+  <meta name="description" content="Official event hub for the Department of Computer Science and Engineering, Rajeev Institute of Technology, Hassan, organized with GDG on Campus – RIT Hassan.">
+  <meta property="og:title" content="CSE Events Hub | Dept. of CSE – RIT Hassan &amp; GDG on Campus">
+  <meta property="og:description" content="Explore technical, cultural, and sports events, register solo or as a team, follow live scores, and view campus highlights at RIT Hassan.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#1a73e8">
+  <link rel="icon" href="./CSE Events Hub _ Dept. of CSE – RIT Hassan &amp; GDG on Campus_files/GDG_CLUB-logo-DalhAA47.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="./CSE Events Hub _ Dept. of CSE – RIT Hassan &amp; GDG on Campus_files/css2" rel="stylesheet">
+  <script defer="" src="./CSE Events Hub _ Dept. of CSE – RIT Hassan &amp; GDG on Campus_files/supabase.js.download"></script>
+  <script defer="" src="./CSE Events Hub _ Dept. of CSE – RIT Hassan &amp; GDG on Campus_files/main.js.download"></script>
+  <link rel="stylesheet" crossorigin="" href="./CSE Events Hub _ Dept. of CSE – RIT Hassan &amp; GDG on Campus_files/index-CrE-rE_d.css">
+</head>
+<body>
+  <a class="skip-link" href="https://cse-events-hub.ai.studio/#main-content">Skip to main content</a>
+  <div class="google-stripe" aria-hidden="true">
+    <span></span><span></span><span></span><span></span>
+  </div>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="https://cse-events-hub.ai.studio/#home" data-route="hub" aria-label="CSE Events Hub home">
+        <span class="brand-logos">
+          <img src="./CSE Events Hub _ Dept. of CSE – RIT Hassan &amp; GDG on Campus_files/Clg-Logo-X_BJR-yY.jpeg" alt="Rajeev Institute of Technology, Hassan logo" width="38" height="38">
+          <img src="./CSE Events Hub _ Dept. of CSE – RIT Hassan &amp; GDG on Campus_files/Dept-Logo-uLhfroea.jpeg" alt="Department of Computer Science and Engineering logo" width="38" height="38">
+          <img src="./CSE Events Hub _ Dept. of CSE – RIT Hassan &amp; GDG on Campus_files/GDG_CLUB-logo-DalhAA47.jpeg" alt="GDG on Campus RIT Hassan logo" width="38" height="38">
+        </span>
+        <span class="brand-title">CSE Events Hub</span>
+      </a>
+
+      <nav id="primary-nav" class="nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="https://cse-events-hub.ai.studio/#home" data-route="hub" class="is-active">Home</a></li>
+          <li><a href="https://cse-events-hub.ai.studio/#about" data-route="hub">About</a></li>
+          <li><a href="https://cse-events-hub.ai.studio/#events" data-route="hub">Events</a></li>
+          <li><a href="https://cse-events-hub.ai.studio/#scores" data-route="hub">Live Scores</a></li>
+          <li><a href="https://cse-events-hub.ai.studio/#gallery" data-route="hub">Gallery</a></li>
+          <li><a href="https://cse-events-hub.ai.studio/#register" data-route="hub">Register</a></li>
+          <li><a href="https://cse-events-hub.ai.studio/#contact" data-route="hub">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to dark theme" title="Toggle light or dark theme">
+          <svg id="theme-icon-moon" class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg id="theme-icon-sun" class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" hidden="">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+
+        <div id="header-auth-slot" class="header-auth"><a href="https://cse-events-hub.ai.studio/#login" class="btn btn-primary btn-sm" data-route="login">Login</a></div>
+
+        <button class="icon-btn menu-btn" id="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-nav">
+          <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== ANNOUNCEMENTS TICKER ===================== -->
+  <section class="ticker-bar" aria-label="Latest announcements">
+    <div class="container ticker-inner">
+      <div class="ticker-label">
+        <span class="ticker-tag">Announcements</span>
+      </div>
+      <div class="ticker-viewport" id="ticker-viewport">
+        <div class="ticker-track" id="ticker-track"><span class="ticker-item">Sample Notice: CodeStorm 24-Hr Hackathon team registrations close Nov 25 at 6:00 PM.<span class="ticker-sep" aria-hidden="true">•</span></span><span class="ticker-item">GDG on Campus – RIT Hassan: Cloud &amp; Web Dev Study Jam scheduled for Dec 2 in CSE Auditorium.<span class="ticker-sep" aria-hidden="true">•</span></span><span class="ticker-item">Box Cricket Final live on RIT Ground — follow real-time scores in the Live Scores section.<span class="ticker-sep" aria-hidden="true">•</span></span><span class="ticker-item">Coordinators can sign in on the Login page (admin@rithassan.ac.in / cse2026) to edit live scores.<span class="ticker-sep" aria-hidden="true">•</span></span><span class="ticker-item">Sample Notice: CodeStorm 24-Hr Hackathon team registrations close Nov 25 at 6:00 PM.<span class="ticker-sep" aria-hidden="true">•</span></span><span class="ticker-item">GDG on Campus – RIT Hassan: Cloud &amp; Web Dev Study Jam scheduled for Dec 2 in CSE Auditorium.<span class="ticker-sep" aria-hidden="true">•</span></span><span class="ticker-item">Box Cricket Final live on RIT Ground — follow real-time scores in the Live Scores section.<span class="ticker-sep" aria-hidden="true">•</span></span><span class="ticker-item">Coordinators can sign in on the Login page (admin@rithassan.ac.in / cse2026) to edit live scores.<span class="ticker-sep" aria-hidden="true">•</span></span></div>
+      </div>
+      <button type="button" class="ticker-toggle" id="ticker-toggle" aria-pressed="false" aria-label="Pause announcements ticker">
+        Pause
+      </button>
+    </div>
+  </section>
+
+  <!-- ===================== MAIN HUB VIEW ===================== -->
+  <main id="main-content">
+    <div id="hub-view">
+      <!-- HOME (HERO + UPCOMING EVENTS) -->
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="container">
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <p class="eyebrow">Department of CSE · Rajeev Institute of Technology, Hassan</p>
+              <h1 id="hero-title">CSE Events Hub — Code, Compete &amp; Celebrate</h1>
+              <p class="lead">
+                The central campus portal for technical hackathons, cultural showcases, and inter-semester sports tournaments — organized by the Department of Computer Science &amp; Engineering with GDG on Campus – RIT Hassan.
+              </p>
+              <div class="hero-cta">
+                <a class="btn btn-primary" href="https://cse-events-hub.ai.studio/#register">Register Now</a>
+                <a class="btn btn-ghost" href="https://cse-events-hub.ai.studio/#events">Browse Events</a>
+                <a class="btn btn-ghost" href="https://cse-events-hub.ai.studio/#contact">Book Appointment</a>
+              </div>
+            </div>
+
+            <aside class="hero-panel" aria-label="Organizers and upcoming highlights">
+              <div class="organizers-box">
+                <p class="panel-kicker">Organized In Collaboration With</p>
+                <div class="logo-trio">
+                  <figure>
+                    <img src="./CSE Events Hub _ Dept. of CSE – RIT Hassan &amp; GDG on Campus_files/Clg-Logo-X_BJR-yY.jpeg" alt="Rajeev Institute of Technology logo" width="88" height="88">
+                    <figcaption>RIT Hassan</figcaption>
+                  </figure>
+                  <figure>
+                    <img src="./CSE Events Hub _ Dept. of CSE – RIT Hassan &amp; GDG on Campus_files/Dept-Logo-uLhfroea.jpeg" alt="Department of CSE logo" width="88" height="88">
+                    <figcaption>Dept. of CSE</figcaption>
+                  </figure>
+                  <figure>
+                    <img src="./CSE Events Hub _ Dept. of CSE – RIT Hassan &amp; GDG on Campus_files/GDG_CLUB-logo-DalhAA47.jpeg" alt="GDG on Campus RIT Hassan logo" width="88" height="88">
+                    <figcaption>GDG on Campus</figcaption>
+                  </figure>
+                </div>
+              </div>
+
+              <div class="upcoming-box">
+                <div class="upcoming-head">
+                  <h2>Upcoming Next</h2>
+                  <span class="sample-note">Sample data</span>
+                </div>
+                <ul class="upcoming-list" id="hero-upcoming-list"><li class="upcoming-item"><div><strong>CodeStorm 24-Hr Hackathon</strong><span>Technical · 2026-11-28 · 09:00 AM</span></div><button type="button" class="btn btn-ghost btn-sm">Register</button></li><li class="upcoming-item"><div><strong>Cloud &amp; Web Dev Study Jam</strong><span>Technical · 2026-12-02 · 02:00 PM</span></div><button type="button" class="btn btn-ghost btn-sm">Register</button></li></ul>
+              </div>
+            </aside>
+          </div>
+
+          <ul class="kpi-strip" aria-label="CSE Events Hub summary">
+            <li>
+              <strong class="tabular">3</strong>
+              <span>Tracks: Technical, Cultural, Sports</span>
+            </li>
+            <li>
+              <strong class="tabular" id="stat-event-count">6</strong>
+              <span>Active Sample Events</span>
+            </li>
+            <li>
+              <strong class="tabular" id="stat-reg-count">0</strong>
+              <span>Submitted Registrations</span>
+            </li>
+            <li>
+              <strong class="tabular">Solo / Team</strong>
+              <span>Open to All CSE Semesters</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="section alt" id="about" aria-labelledby="about-title">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">About the Hub</p>
+            <h2 id="about-title">One home for every CSE department initiative</h2>
+            <p class="section-sub">
+              Designed for students, faculty coordinators, and GDG on Campus volunteers at Rajeev Institute of Technology, Hassan to discover events, register effortlessly, and follow live campus standings.
+            </p>
+          </div>
+
+          <div class="about-bento">
+            <article class="card about-feature">
+              <h3>Department of Computer Science &amp; Engineering, RIT Hassan</h3>
+              <p>
+                The Department of CSE fosters hands-on engineering practice alongside teamwork, athletic spirit, and cultural expression. From 24-hour coding sprints to inter-semester cricket and annual fests, every student has a stage to build and lead.
+              </p>
+              <ul class="check-list">
+                <li>Unified schedule across Technical, Cultural, and Sports tracks</li>
+                <li>Instant solo and team registration with local persistence</li>
+                <li>Transparent live match scoreboard and batch points standings</li>
+              </ul>
+            </article>
+
+            <div class="about-stack">
+              <article class="card">
+                <h3>GDG on Campus – RIT Hassan</h3>
+                <p>
+                  Google Developer Groups on Campus empowers students with workshops, study jams, build challenges, and peer mentorship on web, cloud, and AI technologies.
+                </p>
+              </article>
+              <article class="card">
+                <h3>Built for Open Participation</h3>
+                <p>
+                  Sign in as a student to auto-fill registrations and view your entries, or log in as an event coordinator to edit live scores, update the points table, and post announcements.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EVENTS -->
+      <section class="section" id="events" aria-labelledby="events-title">
+        <div class="container">
+          <div class="section-head-row">
+            <div>
+              <p class="eyebrow">Events Calendar</p>
+              <h2 id="events-title">Explore Technical, Cultural &amp; Sports Events</h2>
+              <p class="section-sub">
+                Sample Data Notice: Events listed below are sample placeholder listings for demonstration and testing.
+              </p>
+            </div>
+          </div>
+
+          <div class="events-controls">
+            <div class="filter-tabs" role="group" aria-label="Filter events by category" id="event-filter-tabs">
+              <button type="button" class="filter-tab is-active" data-category="All" aria-pressed="true">All Events</button>
+              <button type="button" class="filter-tab" data-category="Technical" aria-pressed="false">Technical</button>
+              <button type="button" class="filter-tab" data-category="Cultural" aria-pressed="false">Cultural</button>
+              <button type="button" class="filter-tab" data-category="Sports" aria-pressed="false">Sports</button>
+            </div>
+
+            <div class="search-wrap">
+              <label for="event-search" class="sr-only">Search events</label>
+              <input id="event-search" type="search" placeholder="Search events, venues, or coordinators…" autocomplete="off">
+            </div>
+          </div>
+
+          <div class="events-grid" id="events-grid"><article class="card event-card"><div><p class="event-meta"><span class="cat-tech">Technical</span> · 2026-11-28 · 09:00 AM</p><h3>CodeStorm 24-Hr Hackathon (Sample)</h3><p class="muted">Build web or AI prototypes addressing campus and local civic challenges within 24 hours.</p><p class="event-details">Venue: CSE Main Lab &amp; Seminar Hall · Format: Team (2–4)</p></div><div class="event-footer"><span class="small-text muted">GDG on Campus – RIT Hassan</span><button type="button" class="btn btn-primary btn-sm">Register Now</button></div></article><article class="card event-card"><div><p class="event-meta"><span class="cat-tech">Technical</span> · 2026-12-02 · 02:00 PM</p><h3>Cloud &amp; Web Dev Study Jam (Sample)</h3><p class="muted">Hands-on session covering modern responsive architecture, Firebase deployment, and API integration.</p><p class="event-details">Venue: CSE Auditorium, Block B · Format: Solo</p></div><div class="event-footer"><span class="small-text muted">GDG Web Leads</span><button type="button" class="btn btn-primary btn-sm">Register Now</button></div></article><article class="card event-card"><div><p class="event-meta"><span class="cat-sports">Sports</span> · 2026-12-05 · 08:30 AM</p><h3>CSE Inter-Sem Box Cricket Cup (Sample)</h3><p class="muted">Knockout 8-over inter-semester tournament with live ball-by-ball scoreboard updates.</p><p class="event-details">Venue: RIT Campus Sports Ground · Format: Team (6+2)</p></div><div class="event-footer"><span class="small-text muted">CSE Sports Committee</span><button type="button" class="btn btn-primary btn-sm">Register Now</button></div></article><article class="card event-card"><div><p class="event-meta"><span class="cat-sports">Sports</span> · 2026-12-06 · 10:00 AM</p><h3>SmashFest Badminton Singles &amp; Doubles (Sample)</h3><p class="muted">Men's and Women's singles and mixed doubles brackets contributing to the semester points table.</p><p class="event-details">Venue: RIT Indoor Court · Format: Solo / Team</p></div><div class="event-footer"><span class="small-text muted">CSE Athletics Rep</span><button type="button" class="btn btn-primary btn-sm">Register Now</button></div></article><article class="card event-card"><div><p class="event-meta"><span class="cat-cultural">Cultural</span> · 2026-12-10 · 05:30 PM</p><h3>Tarang Cultural Showcase &amp; Battle of Bands (Sample)</h3><p class="muted">An evening of group dance, acoustic bands, classical vocals, and theatre performances.</p><p class="event-details">Venue: RIT Open Air Theatre · Format: Solo / Team</p></div><div class="event-footer"><span class="small-text muted">CSE Cultural Club</span><button type="button" class="btn btn-primary btn-sm">Register Now</button></div></article><article class="card event-card"><div><p class="event-meta"><span class="cat-cultural">Cultural</span> · 2026-12-11 · 03:00 PM</p><h3>Tech &amp; Pop-Culture Quiz Bowl (Sample)</h3><p class="muted">Fast-paced buzzer rounds spanning computer science trivia, cinema, music, and current affairs.</p><p class="event-details">Venue: CSE Seminar Hall 2 · Format: Team (2)</p></div><div class="event-footer"><span class="small-text muted">CSE Literary Forum</span><button type="button" class="btn btn-primary btn-sm">Register Now</button></div></article></div>
+
+          <div class="empty-state" id="events-empty" hidden="">
+            <p>No sample events match your current filter or search query.</p>
+            <button type="button" class="btn btn-ghost btn-sm" id="events-reset-btn">Reset Filters</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- LIVE SCORES & POINTS TABLE -->
+      <section class="section alt" id="scores" aria-labelledby="scores-title">
+        <div class="container">
+          <div class="section-head-row">
+            <div>
+              <p class="eyebrow">Live Scoreboard</p>
+              <h2 id="scores-title">Real-Time Match Scores &amp; Points Table</h2>
+              <p class="section-sub">
+                Sample live scores and semester standings. Coordinators can edit any score or points row directly from the Admin Page.
+              </p>
+            </div>
+            <div class="scores-actions">
+              <a href="https://cse-events-hub.ai.studio/#admin" class="btn btn-primary btn-sm" id="open-admin-from-scores" data-route="admin">Edit Scores in Admin</a>
+            </div>
+          </div>
+
+          <div class="scores-layout">
+            <div class="scores-column">
+              <div class="subhead-row">
+                <h3>Match &amp; Event Scoreboard</h3>
+                <span class="sample-note">Editable via Admin</span>
+              </div>
+              <div class="match-list" id="live-matches-list"><article class="match-card"><div class="match-top"><span>Sports · Inter-Sem Box Cricket Final (Sample)</span><span class="status-label status-live"><span class="live-indicator" aria-hidden="true"></span>Live</span></div><div class="match-teams"><div class="match-row"><strong>6th Sem CSE</strong><span class="match-score">78/3 (7.4)</span></div><div class="match-row"><strong>4th Sem CSE</strong><span class="match-score">74/5 (8.0)</span></div></div><p class="match-note">RIT Main Ground · 6th Sem needs 5 runs in 2 balls</p></article><article class="match-card"><div class="match-top"><span>Technical · CodeStorm Round 2 Prototype Judging (Sample)</span><span class="status-label status-final">Final</span></div><div class="match-teams"><div class="match-row"><strong>Binary Blazers (6th Sem)</strong><span class="match-score">92 pts</span></div><div class="match-row"><strong>ByteCraft (8th Sem)</strong><span class="match-score">89 pts</span></div></div><p class="match-note">CSE Seminar Hall · Top 2 advance to Grand Finale</p></article><article class="match-card"><div class="match-top"><span>Cultural · Tarang Group Dance Prelims (Sample)</span><span class="status-label status-final">Final</span></div><div class="match-teams"><div class="match-row"><strong>4th Sem Rhythm Crew</strong><span class="match-score">86 / 100</span></div><div class="match-row"><strong>2nd Sem Pulse</strong><span class="match-score">81 / 100</span></div></div><p class="match-note">Open Air Theatre · Jury Score</p></article><article class="match-card"><div class="match-top"><span>Sports · Badminton Mixed Doubles Semifinal (Sample)</span><span class="status-label status-upcoming">Upcoming</span></div><div class="match-teams"><div class="match-row"><strong>8th Sem Aces</strong><span class="match-score">0</span></div><div class="match-row"><strong>2nd Sem Strikers</strong><span class="match-score">0</span></div></div><p class="match-note">RIT Indoor Court · Starts 02:30 PM</p></article></div>
+            </div>
+
+            <div class="points-column">
+              <div class="subhead-row">
+                <h3>CSE Semester Points Table</h3>
+                <span class="sample-note">Sorted by total points</span>
+              </div>
+              <div class="table-card">
+                <div class="table-scroll">
+                  <table class="points-table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Rank</th>
+                        <th scope="col">Batch / House</th>
+                        <th scope="col" class="num">Played</th>
+                        <th scope="col" class="num">Won</th>
+                        <th scope="col" class="num">Gold</th>
+                        <th scope="col" class="num">Silver</th>
+                        <th scope="col" class="num">Points</th>
+                      </tr>
+                    </thead>
+                    <tbody id="points-table-body"><tr><td class="tabular">1</td><td><strong>6th Sem CSE</strong></td><td class="num">8</td><td class="num">6</td><td class="num">3</td><td class="num">2</td><td class="num pts-cell">54</td></tr><tr><td class="tabular">2</td><td><strong>8th Sem CSE</strong></td><td class="num">8</td><td class="num">5</td><td class="num">2</td><td class="num">3</td><td class="num pts-cell">48</td></tr><tr><td class="tabular">3</td><td><strong>4th Sem CSE</strong></td><td class="num">8</td><td class="num">4</td><td class="num">2</td><td class="num">1</td><td class="num pts-cell">39</td></tr><tr><td class="tabular">4</td><td><strong>2nd Sem CSE</strong></td><td class="num">8</td><td class="num">2</td><td class="num">1</td><td class="num">2</td><td class="num pts-cell">26</td></tr></tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- GALLERY -->
+      <section class="section" id="gallery" aria-labelledby="gallery-title">
+        <div class="container">
+          <div class="section-head-row">
+            <div>
+              <p class="eyebrow">Campus Highlights</p>
+              <h2 id="gallery-title">Event Gallery</h2>
+              <p class="section-sub">
+                Filter moments from hackathons, GDG workshops, cultural nights, and inter-department tournaments. Select any photo to open the lightbox.
+              </p>
+            </div>
+          </div>
+
+          <div class="filter-tabs" role="group" aria-label="Filter gallery by category" id="gallery-filter-tabs">
+            <button type="button" class="filter-tab is-active" data-gallery-cat="All" aria-pressed="true">All Photos</button>
+            <button type="button" class="filter-tab" data-gallery-cat="Technical" aria-pressed="false">Technical</button>
+            <button type="button" class="filter-tab" data-gallery-cat="Cultural" aria-pressed="false">Cultural</button>
+            <button type="button" class="filter-tab" data-gallery-cat="Sports" aria-pressed="false">Sports</button>
+          </div>
+
+          <div class="gallery-grid" id="gallery-grid"><button type="button" class="gallery-card" aria-label="View photo: CodeStorm 24-Hr Campus Hackathon"><div class="gallery-thumb"><img src="./CSE Events Hub _ Dept. of CSE – RIT Hassan &amp; GDG on Campus_files/gallery-hackathon.jpg" alt="CodeStorm 24-Hr Campus Hackathon" loading="lazy"></div><div class="gallery-body"><p class="event-meta">Technical · Sample Highlight · Nov 2026</p><h3>CodeStorm 24-Hr Campus Hackathon</h3><p>CSE teams collaborating on system architecture and live prototypes inside the engineering lab.</p></div></button><button type="button" class="gallery-card" aria-label="View photo: GDG on Campus Web Dev Workshop"><div class="gallery-thumb"><img src="./CSE Events Hub _ Dept. of CSE – RIT Hassan &amp; GDG on Campus_files/gallery-workshop.jpg" alt="GDG on Campus Web Dev Workshop" loading="lazy"></div><div class="gallery-body"><p class="event-meta">Technical · Sample Highlight · Oct 2026</p><h3>GDG on Campus Web Dev Workshop</h3><p>Hands-on developer session hosted with GDG on Campus – RIT Hassan in the CSE seminar hall.</p></div></button><button type="button" class="gallery-card" aria-label="View photo: Tarang Annual Cultural Night"><div class="gallery-thumb"><img src="./CSE Events Hub _ Dept. of CSE – RIT Hassan &amp; GDG on Campus_files/gallery-cultural.jpg" alt="Tarang Annual Cultural Night" loading="lazy"></div><div class="gallery-body"><p class="event-meta">Cultural · Sample Highlight · Oct 2026</p><h3>Tarang Annual Cultural Night</h3><p>Student live band performing under stage lights during the CSE cultural showcase.</p></div></button><button type="button" class="gallery-card" aria-label="View photo: Inter-Semester Cricket &amp; Athletics Meet"><div class="gallery-thumb"><img src="./CSE Events Hub _ Dept. of CSE – RIT Hassan &amp; GDG on Campus_files/gallery-sports.jpg" alt="Inter-Semester Cricket &amp; Athletics Meet" loading="lazy"></div><div class="gallery-body"><p class="event-meta">Sports · Sample Highlight · Sep 2026</p><h3>Inter-Semester Cricket &amp; Athletics Meet</h3><p>Department batches competing in box cricket and track sprints on the RIT Hassan campus ground.</p></div></button></div>
+        </div>
+      </section>
+
+      <!-- REGISTRATION -->
+      <section class="section alt" id="register" aria-labelledby="register-title">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Event Registration</p>
+            <h2 id="register-title">Register Solo or as a Team</h2>
+            <p class="section-sub">
+              Submissions are validated and automatically saved to Supabase (with local browser backup if offline).
+            </p>
+          </div>
+
+          <div class="registration-layout">
+            <div class="card reg-form-card">
+              <div id="reg-auth-banner" class="inline-notice" hidden="">
+                <span id="reg-auth-text"></span>
+                <button type="button" class="text-link-btn" id="reg-autofill-btn">Auto-fill from profile</button>
+              </div>
+
+              <form id="registration-form" class="app-form" novalidate="">
+                <fieldset class="mode-fieldset">
+                  <legend>Participation Type</legend>
+                  <div class="segmented-control" role="radiogroup" aria-label="Participation type">
+                    <label class="segment-option">
+                      <input type="radio" name="regType" value="Solo" checked="">
+                      <span>Solo Participant</span>
+                    </label>
+                    <label class="segment-option">
+                      <input type="radio" name="regType" value="Team">
+                      <span>Team (2–4 Members)</span>
+                    </label>
+                  </div>
+                </fieldset>
+
+                <div class="form-grid">
+                  <div class="field">
+                    <label for="reg-event">Select Event <span aria-hidden="true">*</span></label>
+                    <select id="reg-event" name="eventId" required=""><option value="">Choose an event</option><option value="ev-codestorm">CodeStorm 24-Hr Hackathon (Sample) (Technical)</option><option value="ev-cloudjam">Cloud &amp; Web Dev Study Jam (Sample) (Technical)</option><option value="ev-cricket">CSE Inter-Sem Box Cricket Cup (Sample) (Sports)</option><option value="ev-badminton">SmashFest Badminton Singles &amp; Doubles (Sample) (Sports)</option><option value="ev-cultnight">Tarang Cultural Showcase &amp; Battle of Bands (Sample) (Cultural)</option><option value="ev-quiz">Tech &amp; Pop-Culture Quiz Bowl (Sample) (Cultural)</option></select>
+                    <p class="field-error" id="err-event" role="alert"></p>
+                  </div>
+
+                  <div class="field">
+                    <label for="reg-semester">Semester <span aria-hidden="true">*</span></label>
+                    <select id="reg-semester" name="semester" required="">
+                      <option value="">Choose semester</option>
+                      <option value="2nd Sem CSE">2nd Sem CSE</option>
+                      <option value="4th Sem CSE">4th Sem CSE</option>
+                      <option value="6th Sem CSE">6th Sem CSE</option>
+                      <option value="8th Sem CSE">8th Sem CSE</option>
+                    </select>
+                    <p class="field-error" id="err-semester" role="alert"></p>
+                  </div>
+
+                  <div class="field">
+                    <label for="reg-name">Full Name (Lead / Solo) <span aria-hidden="true">*</span></label>
+                    <input id="reg-name" name="fullName" type="text" placeholder="e.g. Ananya Sharma" autocomplete="name" required="">
+                    <p class="field-error" id="err-name" role="alert"></p>
+                  </div>
+
+                  <div class="field">
+                    <label for="reg-usn">College USN <span aria-hidden="true">*</span></label>
+                    <input id="reg-usn" name="usn" type="text" placeholder="e.g. 4RA23CS018" autocomplete="off" required="">
+                    <p class="field-error" id="err-usn" role="alert"></p>
+                  </div>
+
+                  <div class="field">
+                    <label for="reg-email">Email Address <span aria-hidden="true">*</span></label>
+                    <input id="reg-email" name="email" type="email" placeholder="you@rithassan.ac.in" autocomplete="email" required="">
+                    <p class="field-error" id="err-email" role="alert"></p>
+                  </div>
+
+                  <div class="field">
+                    <label for="reg-phone">Phone Number <span aria-hidden="true">*</span></label>
+                    <input id="reg-phone" name="phone" type="tel" placeholder="10-digit mobile number" autocomplete="tel" required="">
+                    <p class="field-error" id="err-phone" role="alert"></p>
+                  </div>
+                </div>
+
+                <div id="team-fields-box" class="team-fields" hidden="">
+                  <h4>Team Details</h4>
+                  <div class="form-grid">
+                    <div class="field field-span">
+                      <label for="reg-team-name">Team Name <span aria-hidden="true">*</span></label>
+                      <input id="reg-team-name" name="teamName" type="text" placeholder="e.g. Binary Blazers">
+                      <p class="field-error" id="err-team-name" role="alert"></p>
+                    </div>
+                    <div class="field">
+                      <label for="reg-member-2">Member 2 Name &amp; USN <span aria-hidden="true">*</span></label>
+                      <input id="reg-member-2" name="member2" type="text" placeholder="e.g. Rohan K (4RA23CS042)">
+                      <p class="field-error" id="err-member-2" role="alert"></p>
+                    </div>
+                    <div class="field">
+                      <label for="reg-member-3">Member 3 Name &amp; USN (Optional)</label>
+                      <input id="reg-member-3" name="member3" type="text" placeholder="e.g. Priya M (4RA23CS031)">
+                    </div>
+                    <div class="field field-span">
+                      <label for="reg-member-4">Member 4 Name &amp; USN (Optional)</label>
+                      <input id="reg-member-4" name="member4" type="text" placeholder="e.g. Karthik R (4RA23CS025)">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="field checkbox-field">
+                  <label class="checkbox-label">
+                    <input id="reg-agree" name="agree" type="checkbox" required="">
+                    <span>I confirm the participant details are accurate and follow RIT Hassan &amp; GDG on Campus event rules.</span>
+                  </label>
+                  <p class="field-error" id="err-agree" role="alert"></p>
+                </div>
+
+                <div class="form-actions">
+                  <button type="submit" class="btn btn-primary">Submit Registration</button>
+                  <button type="reset" class="btn btn-ghost" id="reg-reset-btn">Clear Form</button>
+                </div>
+              </form>
+
+              <div id="reg-confirmation" class="confirmation-card" role="status" aria-live="polite" hidden="">
+                <p class="confirm-kicker">Registration Confirmed</p>
+                <h3 id="confirm-title">You are registered!</h3>
+                <p id="confirm-summary"></p>
+                <p class="sync-feedback" id="reg-sync-feedback"></p>
+                <dl class="confirm-details" id="confirm-details"></dl>
+                <button type="button" class="btn btn-primary btn-sm" id="reg-another-btn">Register for Another Event</button>
+              </div>
+            </div>
+
+            <aside class="card reg-sidebar" aria-label="Saved registrations">
+              <div class="subhead-row">
+                <h3>Saved Registrations</h3>
+                <span class="tabular muted" id="saved-reg-total">0 entries</span>
+              </div>
+              <p class="muted small-text">
+                Recent registrations synced with Supabase. Coordinators can export all records from the Admin Page.
+              </p>
+              <ul class="saved-reg-list" id="saved-reg-list"></ul>
+              <p class="empty-inline" id="saved-reg-empty">No registrations submitted yet. Use the form to add one.</p>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT & APPOINTMENT BOOKING -->
+      <section class="section" id="contact" aria-labelledby="contact-title">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Appointments &amp; Contact</p>
+            <h2 id="contact-title">Book a Coordinator Appointment or Reach Out</h2>
+            <p class="section-sub">
+              Schedule a 1-on-1 slot with Department of CSE or GDG on Campus – RIT Hassan coordinators for hackathon mentoring, project reviews, or event inquiries. All bookings save automatically to Supabase.
+            </p>
+          </div>
+
+          <div class="contact-layout">
+            <div class="contact-cards">
+              <article class="card">
+                <h3>Department of CSE</h3>
+                <p class="muted">Rajeev Institute of Technology<br>Plot #1-D, Growth Centre, Industrial Area<br>B.M. Bypass Road, Hassan – 573201, Karnataka</p>
+                <p class="contact-meta">Sample Coordinator: Dr. CSE Faculty Lead · cse.events@rithassan.ac.in</p>
+              </article>
+
+              <article class="card">
+                <h3>GDG on Campus – RIT Hassan</h3>
+                <p class="muted">Student developer community organizing workshops, CodeStorm hackathons, and technical meetups on campus.</p>
+                <div class="contact-links">
+                  <a href="https://gdg-rit-website.vercel.app/" target="_blank" rel="noopener noreferrer">Official GDG Website</a>
+                  <a href="https://www.instagram.com/gdg_club_rit/" target="_blank" rel="noopener noreferrer">Instagram (@gdg_club_rit)</a>
+                  <a href="https://chat.whatsapp.com/Ep2J8GpmRBoF0Fj3A5eks1" target="_blank" rel="noopener noreferrer">WhatsApp Community</a>
+                </div>
+              </article>
+
+              <article class="card">
+                <div class="subhead-row">
+                  <h3>Recent Booked Appointments</h3>
+                  <span class="tabular muted small-text" id="saved-apt-total">0 booked</span>
+                </div>
+                <ul class="saved-reg-list" id="saved-apt-list"></ul>
+                <p class="empty-inline" id="saved-apt-empty">No appointments booked yet. Use the booking form to reserve a slot.</p>
+              </article>
+            </div>
+
+            <article class="card">
+              <div class="filter-tabs contact-mode-tabs" role="tablist" aria-label="Booking and inquiry forms">
+                <button type="button" class="filter-tab is-active" id="tab-book-apt" role="tab" aria-selected="true">Book an Appointment</button>
+                <button type="button" class="filter-tab" id="tab-quick-inq" role="tab" aria-selected="false">Quick Inquiry</button>
+              </div>
+
+              <!-- APPOINTMENT BOOKING FORM -->
+              <form id="appointment-form" class="app-form" novalidate="">
+                <div class="form-grid">
+                  <div class="field">
+                    <label for="ap-name">Full Name <span aria-hidden="true">*</span></label>
+                    <input id="ap-name" name="fullName" type="text" placeholder="e.g. Ananya Sharma" autocomplete="name" required="">
+                    <p class="field-error" id="err-ap-name" role="alert"></p>
+                  </div>
+
+                  <div class="field">
+                    <label for="ap-email">Email Address <span aria-hidden="true">*</span></label>
+                    <input id="ap-email" name="email" type="email" placeholder="you@rithassan.ac.in" autocomplete="email" required="">
+                    <p class="field-error" id="err-ap-email" role="alert"></p>
+                  </div>
+
+                  <div class="field">
+                    <label for="ap-phone">Phone Number <span aria-hidden="true">*</span></label>
+                    <input id="ap-phone" name="phone" type="tel" placeholder="10-digit mobile number" autocomplete="tel" required="">
+                    <p class="field-error" id="err-ap-phone" role="alert"></p>
+                  </div>
+
+                  <div class="field">
+                    <label for="ap-coordinator">Coordinator / Desk <span aria-hidden="true">*</span></label>
+                    <select id="ap-coordinator" name="coordinator" required="">
+                      <option value="">Choose coordinator or desk</option>
+                      <option value="CSE Faculty Coordinator">CSE Faculty Coordinator</option>
+                      <option value="GDG on Campus Lead">GDG on Campus Lead</option>
+                      <option value="CodeStorm Hackathon Mentor">CodeStorm Hackathon Mentor</option>
+                      <option value="Sports &amp; Cultural Desk">Sports &amp; Cultural Desk</option>
+                    </select>
+                    <p class="field-error" id="err-ap-coordinator" role="alert"></p>
+                  </div>
+
+                  <div class="field">
+                    <label for="ap-date">Preferred Date <span aria-hidden="true">*</span></label>
+                    <input id="ap-date" name="appointmentDate" type="date" required="" min="2026-11-18">
+                    <p class="field-error" id="err-ap-date" role="alert"></p>
+                  </div>
+
+                  <div class="field">
+                    <label for="ap-slot">Preferred Time Slot <span aria-hidden="true">*</span></label>
+                    <select id="ap-slot" name="timeSlot" required="">
+                      <option value="">Select time slot</option>
+                      <option value="10:00 AM - 10:30 AM">10:00 AM - 10:30 AM</option>
+                      <option value="11:30 AM - 12:00 PM">11:30 AM - 12:00 PM</option>
+                      <option value="02:00 PM - 02:30 PM">02:00 PM - 02:30 PM</option>
+                      <option value="03:30 PM - 04:00 PM">03:30 PM - 04:00 PM</option>
+                    </select>
+                    <p class="field-error" id="err-ap-slot" role="alert"></p>
+                  </div>
+
+                  <div class="field field-span">
+                    <label for="ap-topic">Appointment Topic <span aria-hidden="true">*</span></label>
+                    <select id="ap-topic" name="topic" required="">
+                      <option value="">Select purpose</option>
+                      <option value="Project / Hackathon Mentoring">Project / Hackathon Mentoring</option>
+                      <option value="Event Rules &amp; Team Clarification">Event Rules &amp; Team Clarification</option>
+                      <option value="GDG Workshop / Volunteer Slot">GDG Workshop / Volunteer Slot</option>
+                      <option value="Sports / Cultural Scheduling">Sports / Cultural Scheduling</option>
+                    </select>
+                    <p class="field-error" id="err-ap-topic" role="alert"></p>
+                  </div>
+
+                  <div class="field field-span">
+                    <label for="ap-notes">Additional Notes (Optional)</label>
+                    <textarea id="ap-notes" name="notes" rows="2" placeholder="Share your team name, USN, or question for the meeting…"></textarea>
+                  </div>
+                </div>
+
+                <div class="form-actions">
+                  <button type="submit" class="btn btn-primary" id="ap-submit-btn">Book Appointment</button>
+                  <button type="reset" class="btn btn-ghost" id="ap-reset-btn">Clear</button>
+                </div>
+              </form>
+
+              <div id="apt-confirmation" class="confirmation-card" role="status" aria-live="polite" hidden="">
+                <p class="confirm-kicker">Appointment Booked</p>
+                <h3 id="apt-confirm-title">Appointment Confirmed</h3>
+                <p id="apt-confirm-summary"></p>
+                <p class="sync-feedback" id="apt-sync-feedback"></p>
+                <dl class="confirm-details" id="apt-confirm-details"></dl>
+                <button type="button" class="btn btn-primary btn-sm" id="apt-another-btn">Book Another Appointment</button>
+              </div>
+
+              <!-- QUICK INQUIRY FORM -->
+              <form id="contact-form" class="app-form" novalidate="" hidden="">
+                <div class="field">
+                  <label for="c-name">Your Name <span aria-hidden="true">*</span></label>
+                  <input id="c-name" name="name" type="text" placeholder="Enter your name" required="">
+                  <p class="field-error" id="err-c-name" role="alert"></p>
+                </div>
+                <div class="field">
+                  <label for="c-email">Email <span aria-hidden="true">*</span></label>
+                  <input id="c-email" name="email" type="email" placeholder="you@rithassan.ac.in" required="">
+                  <p class="field-error" id="err-c-email" role="alert"></p>
+                </div>
+                <div class="field">
+                  <label for="c-msg">Message <span aria-hidden="true">*</span></label>
+                  <textarea id="c-msg" name="message" rows="3" placeholder="Ask about event rules, team sizes, or schedule…" required=""></textarea>
+                  <p class="field-error" id="err-c-msg" role="alert"></p>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+                <p class="form-success" id="contact-success" role="status" aria-live="polite" hidden=""></p>
+              </form>
+            </article>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ===================== LOGIN PAGE VIEW ===================== -->
+    <section id="login-view" class="page-view" aria-labelledby="login-title" hidden="">
+      <div class="container auth-container">
+        <div class="view-topbar">
+          <a href="https://cse-events-hub.ai.studio/#home" class="back-link" data-route="hub">← Back to CSE Events Hub</a>
+        </div>
+
+        <div class="auth-card card">
+          <div class="auth-logos">
+            <img src="./CSE Events Hub _ Dept. of CSE – RIT Hassan &amp; GDG on Campus_files/Clg-Logo-X_BJR-yY.jpeg" alt="Rajeev Institute of Technology logo" width="44" height="44">
+            <img src="./CSE Events Hub _ Dept. of CSE – RIT Hassan &amp; GDG on Campus_files/Dept-Logo-uLhfroea.jpeg" alt="Department of CSE logo" width="44" height="44">
+            <img src="./CSE Events Hub _ Dept. of CSE – RIT Hassan &amp; GDG on Campus_files/GDG_CLUB-logo-DalhAA47.jpeg" alt="GDG on Campus RIT Hassan logo" width="44" height="44">
+          </div>
+
+          <h1 id="login-title" class="auth-heading">Sign in to CSE Events Hub</h1>
+          <p class="muted auth-sub">
+            Sign in as a student to pre-fill registrations and track entries, or as an event coordinator to manage live scores and announcements.
+          </p>
+
+          <div class="auth-mode-tabs" role="tablist" aria-label="Authentication mode">
+            <button type="button" class="filter-tab is-active" id="auth-tab-signin" role="tab" aria-selected="true">Sign In</button>
+            <button type="button" class="filter-tab" id="auth-tab-signup" role="tab" aria-selected="false">Create Student Account</button>
+          </div>
+
+          <!-- SIGN IN FORM -->
+          <form id="login-form" class="app-form" novalidate="">
+            <div class="field">
+              <label for="login-email">Email Address <span aria-hidden="true">*</span></label>
+              <input id="login-email" name="email" type="email" placeholder="admin@rithassan.ac.in or student@rithassan.ac.in" autocomplete="email" required="">
+            </div>
+            <div class="field">
+              <label for="login-password">Password <span aria-hidden="true">*</span></label>
+              <div class="password-wrap">
+                <input id="login-password" name="password" type="password" placeholder="Enter password" autocomplete="current-password" required="">
+                <button type="button" class="pw-toggle" id="toggle-pw-btn" aria-label="Show password">Show</button>
+              </div>
+            </div>
+            <p class="field-error" id="login-error" role="alert"></p>
+            <button type="submit" class="btn btn-primary btn-full">Sign In</button>
+
+            <div class="demo-creds">
+              <p class="demo-title">Demo Credentials (Quick Fill)</p>
+              <div class="demo-buttons">
+                <button type="button" class="btn btn-ghost btn-sm" id="fill-admin-btn">
+                  Use Demo Admin (admin@rithassan.ac.in)
+                </button>
+                <button type="button" class="btn btn-ghost btn-sm" id="fill-student-btn">
+                  Use Demo Student (student@rithassan.ac.in)
+                </button>
+              </div>
+              <p class="muted small-text">Admin password: <code>cse2026</code> · Student password: <code>rit123</code></p>
+            </div>
+          </form>
+
+          <!-- SIGN UP FORM -->
+          <form id="signup-form" class="app-form" novalidate="" hidden="">
+            <div class="field">
+              <label for="signup-name">Full Name <span aria-hidden="true">*</span></label>
+              <input id="signup-name" name="name" type="text" placeholder="e.g. Rahul Verma" required="">
+            </div>
+            <div class="field">
+              <label for="signup-usn">College USN <span aria-hidden="true">*</span></label>
+              <input id="signup-usn" name="usn" type="text" placeholder="e.g. 4RA23CS055" required="">
+            </div>
+            <div class="field">
+              <label for="signup-sem">Semester <span aria-hidden="true">*</span></label>
+              <select id="signup-sem" name="semester" required="">
+                <option value="2nd Sem CSE">2nd Sem CSE</option>
+                <option value="4th Sem CSE">4th Sem CSE</option>
+                <option value="6th Sem CSE" selected="">6th Sem CSE</option>
+                <option value="8th Sem CSE">8th Sem CSE</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="signup-email">Email Address <span aria-hidden="true">*</span></label>
+              <input id="signup-email" name="email" type="email" placeholder="you@rithassan.ac.in" required="">
+            </div>
+            <div class="field">
+              <label for="signup-password">Password (min 6 chars) <span aria-hidden="true">*</span></label>
+              <input id="signup-password" name="password" type="password" placeholder="Create password" required="">
+            </div>
+            <p class="field-error" id="signup-error" role="alert"></p>
+            <button type="submit" class="btn btn-primary btn-full">Create Student Account</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ADMIN PAGE VIEW ===================== -->
+    <section id="admin-view" class="page-view" aria-labelledby="admin-title" hidden="">
+      <div class="container">
+        <div class="view-topbar">
+          <a href="https://cse-events-hub.ai.studio/#home" class="back-link" data-route="hub">← Back to CSE Events Hub</a>
+          <div class="admin-topbar-actions" id="admin-user-actions" hidden="">
+            <span class="muted small-text" id="admin-signed-label"></span>
+            <button type="button" class="btn btn-ghost btn-sm" id="admin-logout-btn">Sign Out</button>
+          </div>
+        </div>
+
+        <div id="admin-locked" class="card admin-guard" hidden="">
+          <h1>Admin Access Required</h1>
+          <p class="muted">Please sign in with an event coordinator / admin account to edit live scores, update the points table, and manage registrations.</p>
+          <a href="https://cse-events-hub.ai.studio/#login" class="btn btn-primary" data-route="login">Go to Login Page</a>
+        </div>
+
+        <div id="admin-dashboard" hidden="">
+          <div class="admin-header">
+            <div>
+              <p class="eyebrow">Coordinator Controls</p>
+              <h1 id="admin-title">Admin Management Console</h1>
+              <p class="muted">Synced with Supabase project <code>bomlvhjlwspujhyyggwv</code> and browser storage fallback. Updates reflect immediately across the site.</p>
+            </div>
+            <div class="admin-header-btns">
+              <button type="button" class="btn btn-ghost btn-sm" id="admin-refresh-db-btn">Refresh from Supabase</button>
+              <button type="button" class="btn btn-ghost btn-sm" id="admin-reset-all-btn">Reset Sample Data</button>
+            </div>
+          </div>
+
+          <div class="filter-tabs admin-tabs" role="tablist" aria-label="Admin sections">
+            <button type="button" class="filter-tab is-active" data-admin-tab="appointments" role="tab" aria-selected="true">Appointments</button>
+            <button type="button" class="filter-tab" data-admin-tab="registrations" role="tab" aria-selected="false">Registrations</button>
+            <button type="button" class="filter-tab" data-admin-tab="matches" role="tab" aria-selected="false">Live Scoreboard</button>
+            <button type="button" class="filter-tab" data-admin-tab="points" role="tab" aria-selected="false">Points Table</button>
+            <button type="button" class="filter-tab" data-admin-tab="announcements" role="tab" aria-selected="false">Announcements</button>
+          </div>
+
+          <!-- ADMIN TAB 0: APPOINTMENTS -->
+          <div class="admin-panel" id="admin-tab-appointments">
+            <div class="card">
+              <div class="subhead-row">
+                <h3>Booked Appointments (<span id="admin-apt-count" class="tabular">0</span>)</h3>
+                <button type="button" class="btn btn-ghost btn-sm" id="export-apt-csv-btn">Export Appointments CSV</button>
+              </div>
+              <div class="table-scroll">
+                <table class="points-table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Booking Ref</th>
+                      <th scope="col">Name</th>
+                      <th scope="col">Contact</th>
+                      <th scope="col">Coordinator</th>
+                      <th scope="col">Date &amp; Slot</th>
+                      <th scope="col">Topic</th>
+                      <th scope="col">Status</th>
+                      <th scope="col">Action</th>
+                    </tr>
+                  </thead>
+                  <tbody id="admin-apt-body"></tbody>
+                </table>
+              </div>
+              <p class="empty-inline" id="admin-apt-empty" hidden="">No appointments booked yet.</p>
+            </div>
+          </div>
+
+          <!-- ADMIN TAB 1: LIVE SCOREBOARD -->
+          <div class="admin-panel" id="admin-tab-matches" hidden="">
+            <div class="admin-grid">
+              <div class="card">
+                <h3>Edit Existing Match Scores</h3>
+                <div id="admin-matches-list" class="admin-edit-list"></div>
+              </div>
+
+              <div class="card">
+                <h3>Add New Match / Event Score</h3>
+                <form id="admin-add-match-form" class="app-form" novalidate="">
+                  <div class="field">
+                    <label for="am-event">Event / Sport Name <span aria-hidden="true">*</span></label>
+                    <input id="am-event" type="text" placeholder="e.g. Box Cricket Semifinal" required="">
+                  </div>
+                  <div class="field">
+                    <label for="am-cat">Category</label>
+                    <select id="am-cat">
+                      <option value="Sports">Sports</option>
+                      <option value="Technical">Technical</option>
+                      <option value="Cultural">Cultural</option>
+                    </select>
+                  </div>
+                  <div class="form-grid">
+                    <div class="field">
+                      <label for="am-team-a">Team A <span aria-hidden="true">*</span></label>
+                      <input id="am-team-a" type="text" placeholder="6th Sem CSE" required="">
+                    </div>
+                    <div class="field">
+                      <label for="am-score-a">Score A</label>
+                      <input id="am-score-a" type="text" placeholder="84/3" value="0">
+                    </div>
+                    <div class="field">
+                      <label for="am-team-b">Team B <span aria-hidden="true">*</span></label>
+                      <input id="am-team-b" type="text" placeholder="4th Sem CSE" required="">
+                    </div>
+                    <div class="field">
+                      <label for="am-score-b">Score B</label>
+                      <input id="am-score-b" type="text" placeholder="79/5" value="0">
+                    </div>
+                  </div>
+                  <div class="field">
+                    <label for="am-status">Match Status</label>
+                    <select id="am-status">
+                      <option value="Live">Live</option>
+                      <option value="Final">Final</option>
+                      <option value="Upcoming">Upcoming</option>
+                    </select>
+                  </div>
+                  <div class="field">
+                    <label for="am-note">Venue / Result Note</label>
+                    <input id="am-note" type="text" placeholder="e.g. RIT Main Ground · Over 8.2">
+                  </div>
+                  <button type="submit" class="btn btn-primary">Add Match Score</button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <!-- ADMIN TAB 2: POINTS TABLE -->
+          <div class="admin-panel" id="admin-tab-points" hidden="">
+            <div class="card">
+              <div class="subhead-row">
+                <h3>Edit Semester / House Points Standings</h3>
+                <span class="muted small-text">Edit values and click Save Row</span>
+              </div>
+              <div class="table-scroll">
+                <table class="points-table admin-points-table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Batch / House</th>
+                      <th scope="col" class="num">Played</th>
+                      <th scope="col" class="num">Won</th>
+                      <th scope="col" class="num">Gold</th>
+                      <th scope="col" class="num">Silver</th>
+                      <th scope="col" class="num">Points</th>
+                      <th scope="col">Action</th>
+                    </tr>
+                  </thead>
+                  <tbody id="admin-points-body"></tbody>
+                </table>
+              </div>
+
+              <form id="admin-add-team-form" class="inline-add-form" novalidate="">
+                <label for="at-name" class="sr-only">New team or batch name</label>
+                <input id="at-name" type="text" placeholder="Add new batch or house (e.g. MCA / Alumni XI)" required="">
+                <button type="submit" class="btn btn-primary btn-sm">Add Row</button>
+              </form>
+            </div>
+          </div>
+
+          <!-- ADMIN TAB 3: ANNOUNCEMENTS -->
+          <div class="admin-panel" id="admin-tab-announcements" hidden="">
+            <div class="admin-grid">
+              <div class="card">
+                <h3>Active Announcements Ticker</h3>
+                <ul id="admin-ticker-list" class="admin-ticker-list"></ul>
+              </div>
+              <div class="card">
+                <h3>Post New Announcement</h3>
+                <form id="admin-add-ticker-form" class="app-form" novalidate="">
+                  <div class="field">
+                    <label for="an-text">Announcement Text <span aria-hidden="true">*</span></label>
+                    <textarea id="an-text" rows="3" placeholder="e.g. CodeStorm Hackathon team check-in opens at 8:30 AM in CSE Seminar Hall." required=""></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Publish to Ticker</button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <!-- ADMIN TAB 4: REGISTRATIONS -->
+          <div class="admin-panel" id="admin-tab-registrations" hidden="">
+            <div class="card">
+              <div class="subhead-row">
+                <h3>Submitted Registrations (<span id="admin-reg-count" class="tabular">0</span>)</h3>
+                <button type="button" class="btn btn-ghost btn-sm" id="export-csv-btn">Export CSV</button>
+              </div>
+              <div class="table-scroll">
+                <table class="points-table">
+                  <thead>
+                    <tr>
+                      <th scope="col">ID</th>
+                      <th scope="col">Event</th>
+                      <th scope="col">Type</th>
+                      <th scope="col">Lead / Participant</th>
+                      <th scope="col">USN</th>
+                      <th scope="col">Semester</th>
+                      <th scope="col">Team / Members</th>
+                      <th scope="col">Action</th>
+                    </tr>
+                  </thead>
+                  <tbody id="admin-reg-body"></tbody>
+                </table>
+              </div>
+              <p class="empty-inline" id="admin-reg-empty" hidden="">No registrations found yet.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== LIGHTBOX MODAL ===================== -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-labelledby="lightbox-title" hidden="">
+    <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+    <div class="lightbox-dialog">
+      <button type="button" class="lightbox-close" id="lightbox-close" aria-label="Close lightbox">×</button>
+      <div class="lightbox-media">
+        <img id="lightbox-img" src="https://cse-events-hub.ai.studio/" alt="">
+      </div>
+      <div class="lightbox-caption">
+        <p class="lightbox-meta" id="lightbox-meta"></p>
+        <h3 id="lightbox-title"></h3>
+        <p id="lightbox-desc" class="muted"></p>
+        <div class="lightbox-nav">
+          <button type="button" class="btn btn-ghost btn-sm" id="lightbox-prev" aria-label="Previous photo">← Previous</button>
+          <span class="tabular muted small-text" id="lightbox-counter">1 / 4</span>
+          <button type="button" class="btn btn-ghost btn-sm" id="lightbox-next" aria-label="Next photo">Next →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="brand-logos footer-logos">
+          <img src="./CSE Events Hub _ Dept. of CSE – RIT Hassan &amp; GDG on Campus_files/Clg-Logo-X_BJR-yY.jpeg" alt="Rajeev Institute of Technology logo" width="52" height="52" loading="lazy">
+          <img src="./CSE Events Hub _ Dept. of CSE – RIT Hassan &amp; GDG on Campus_files/Dept-Logo-uLhfroea.jpeg" alt="Department of CSE logo" width="52" height="52" loading="lazy">
+          <img src="./CSE Events Hub _ Dept. of CSE – RIT Hassan &amp; GDG on Campus_files/GDG_CLUB-logo-DalhAA47.jpeg" alt="GDG on Campus RIT Hassan logo" width="52" height="52" loading="lazy">
+        </div>
+        <p>
+          <strong>CSE Events Hub</strong><br>
+          Department of Computer Science and Engineering<br>
+          Rajeev Institute of Technology, Hassan<br>
+          Organized with GDG on Campus – RIT Hassan
+        </p>
+      </div>
+
+      <nav aria-label="Footer navigation">
+        <h4>Sections</h4>
+        <ul>
+          <li><a href="https://cse-events-hub.ai.studio/#home" data-route="hub">Home</a></li>
+          <li><a href="https://cse-events-hub.ai.studio/#about" data-route="hub">About</a></li>
+          <li><a href="https://cse-events-hub.ai.studio/#events" data-route="hub">Events</a></li>
+          <li><a href="https://cse-events-hub.ai.studio/#scores" data-route="hub">Live Scores</a></li>
+          <li><a href="https://cse-events-hub.ai.studio/#gallery" data-route="hub">Gallery</a></li>
+          <li><a href="https://cse-events-hub.ai.studio/#register" data-route="hub">Registration</a></li>
+          <li><a href="https://cse-events-hub.ai.studio/#contact" data-route="hub">Contact</a></li>
+        </ul>
+      </nav>
+
+      <nav aria-label="Portals and links">
+        <h4>Portals &amp; Community</h4>
+        <ul>
+          <li><a href="https://cse-events-hub.ai.studio/#login" data-route="login">Participant &amp; Admin Login</a></li>
+          <li><a href="https://cse-events-hub.ai.studio/#admin" data-route="admin">Admin Scoreboard Editor</a></li>
+          <li><a href="https://gdg-rit-website.vercel.app/" target="_blank" rel="noopener noreferrer">GDG RIT Website</a></li>
+          <li><a href="https://www.instagram.com/gdg_club_rit/" target="_blank" rel="noopener noreferrer">Instagram (@gdg_club_rit)</a></li>
+          <li><a href="https://chat.whatsapp.com/Ep2J8GpmRBoF0Fj3A5eks1" target="_blank" rel="noopener noreferrer">GDG WhatsApp Community</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="year">2026</span> Department of CSE, Rajeev Institute of Technology, Hassan &amp; GDG on Campus – RIT Hassan. Sample event data shown for demonstration.</p>
+    </div>
+  </footer>
+
+
+</body></html>
